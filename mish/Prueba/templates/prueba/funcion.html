@@ -1,16 +1,37 @@
 {% extends 'prueba/base.html' %}
+{% load static %}
 {% block titulo %} funcion {% endblock %}
 
-{% block contenido  %} funcion
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Esta es la seccion del funcionamiento de la pagina MISH</h1>
-</body>
-</html>
+{% block contenido  %} 
+
+<!-- ejemplo de como conectar paginas por urls <li><a href="{% url 'funcion' %}">Ir a Función</a></li> -->
+<h2>M.I.S.H</h2>
+<h3>Acerca del poyecto M.I.S.H</h3>
+<h1>Esta es la seccion del funcionamiento de la pagina MISH</h1>
+
+<a href="https://www.youtube.com/watch?v=ELSm-G201Ls&t=3163s">otra forma de ir al inicio</a>
+<h3>listado de unidades de fis100</h3>
+<ol>
+    <li></li>
+</ol>
+
+
+
+
+
+
+
+
+<h3>Listado de unidades de fis111</h3>
+
+
+
+
+
+
+
+
+
+
+
 {% endblock %}

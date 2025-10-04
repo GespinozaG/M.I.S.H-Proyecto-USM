@@ -1,18 +1,10 @@
 {% extends 'prueba/base.html' %}
-
+{% load static %}
 {% block titulo %} Sandbox {% endblock %}
 
-{% block contenido  %} seccion del Sandbox 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+{% block contenido  %} 
+<img src="{% static 'prueba/img/Logo_UTFSM.png' %}" alt="Logo">
+<h2>M.I.S.H</h2>
+<h1>Esta es la seccion en donde tu puedes dejar correr tu imaginacion y crear tus planteamientos y situaciones fisicas para asi grficarlas</h1>
 
-    <h1>Esta es la seccion en donde tu puedes dejar correr tu imaginacion y crear tus planteamientos y situaciones fisicas para asi grficarlas</h1>
-</body>
-</html>
 {% endblock %}
